@@ -17,7 +17,7 @@ test
 
 - [x] Apples
 - [x] Bananas
-- [ ] Peanut butter
+- [x] Peanut butter
 
 
 | Item         | Price | # In stock |
