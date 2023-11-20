@@ -3,12 +3,10 @@
 ## version 1
 - [x] SCH_Library
 - [x] Schematic
-- [ ] PCB_Library
-- [ ] Rules
-- [ ] Layout
-- [ ] Modules: Schematic and Layout
+- [x] PCB_Library
+- [x] Rules
+- [x] Layout
 - [ ] Review
-- [ ] Enclosure
 - [ ] Manufacturing Files
 - [ ] Production
 > concept version (only schematic)
@@ -18,9 +16,7 @@
 - [x] PCB_Library
 - [x] Rules
 - [x] Layout
-- [ ] Modules: Schematic and Layout
 - [ ] Review
-- [ ] Enclosure
 - [ ] Manufacturing Files
 - [ ] Production
       
