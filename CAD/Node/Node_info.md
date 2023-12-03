@@ -6,7 +6,6 @@
 - [ ] PCB_Library
 - [ ] Rules
 - [ ] Layout
-- [ ] Modules: Schematic and Layout
 - [ ] Review
 - [ ] Enclosure
 - [ ] Manufacturing Files
@@ -18,7 +17,6 @@
 - [x] PCB_Library
 - [x] Rules
 - [x] Layout
-- [ ] Modules: Schematic and Layout
 - [ ] Review
 - [ ] Enclosure
 - [ ] Manufacturing Files
@@ -32,12 +30,11 @@
 - [x] Schematic
 - [x] PCB_Library
 - [x] Rules
-- [ ] Layout
-- [ ] Modules: Schematic and Layout
-- [ ] Review
+- [x] Layout
+- [x] Review
 - [ ] Enclosure
 - [ ] Manufacturing Files
 - [ ] Production
-> improved PCB layout
+> improved PCB layout, mounting, legends and ADP5091 REG_Dx select jumper (LDO/BOOST enable)
 ready for manufacturing
 ---
