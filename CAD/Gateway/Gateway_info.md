@@ -24,6 +24,8 @@
 
 > *PCB layout and rules for JLCPCB manufacturing added as well as jumpers for current measurement*
 ![image](https://github.com/Cristian-O/H2/assets/108984738/fa7e5e7c-edc3-45da-8c17-1b9e6e5a2962)
+![image](https://github.com/Cristian-O/H2/assets/108984738/97422e66-319d-4e9b-bf37-be5a1221d818)
+
 ## version 3
 - [x] SCH_Library
 - [x] Schematic
