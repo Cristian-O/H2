@@ -33,8 +33,8 @@
 - [x] Layout
 - [x] Review
 - [ ] Enclosure
-- [ ] Manufacturing Files
+- [x] Manufacturing Files
 - [ ] Production
-> improved PCB layout, mounting, legends and ADP5091 REG_Dx select jumper (LDO/BOOST enable)
+> improved PCB layout, mounting, legends and ADP5091 REG_Dx select jumper (LDO/BOOST enable), calculated capacitors for crystals (16pF), reduced BOM (R and C for reset button)
 ready for manufacturing
 ---
