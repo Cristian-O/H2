@@ -19,7 +19,7 @@
 | LINK_ | share link of used webpages      | TS,GS        |
 | BLE_  | Bluetooth functions(power on/off,debug)  |ON,OFF,DEBUG      |
 | REG_  | last n entries in local memory with timestamp  |n     |
-| TEST_  | for testing connection to Ethernet, Node(connected,synked,received) and SD card(used/empty storage remaining)  |WIFI,NODE,SD     |
+| TEST_  | for testing connection to Ethernet, Node(connected,synced,received) and SD card(used/empty storage remaining)  |WIFI,NODE,SD     |
 
 ![Screenshot_20240107_202405_host exp exponent](https://github.com/Cristian-O/H2/assets/108984738/11034db3-e995-413c-875a-b4b411bdc6fa)
 ![Screenshot_20240107_202425_host exp exponent](https://github.com/Cristian-O/H2/assets/108984738/3af8353b-1516-4c58-90ab-3605984c57ee)
