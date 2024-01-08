@@ -20,7 +20,6 @@
 - [ ] BLE reading
 - [ ] Testing with gateway
 ![Screenshot_20240107_202405_host exp exponent](https://github.com/Cristian-O/H2/assets/108984738/11034db3-e995-413c-875a-b4b411bdc6fa)
-<img src="Screenshot_20240107_202405_host exp exponent.jpg" alt="drawing" width="50%"/>
 ![Screenshot_20240107_202425_host exp exponent](https://github.com/Cristian-O/H2/assets/108984738/3af8353b-1516-4c58-90ab-3605984c57ee)
 
 ---
