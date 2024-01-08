@@ -42,6 +42,6 @@
 - [x] Layout
 - [x] Review
 - [x] Manufacturing Files
-- [ ] Production
-> ready for production version         
+- [x] Production
+> ready for production version( manufactured in december 2023)         
 ---
