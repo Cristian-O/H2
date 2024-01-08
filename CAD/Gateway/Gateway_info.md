@@ -46,9 +46,9 @@
 - [x] Rules
 - [x] Layout
 - [x] Review
-- [ ] Enclosure
+- [x] Enclosure
 - [x] Manufacturing Files
-- [ ] Production
+- [x] Production
 > modified NOR flash footprint (SOIC-8 208mil), length tuning on tracks
-ready for manufacturing
+ready for manufacturing (manufactured in december 2023)
 ---
