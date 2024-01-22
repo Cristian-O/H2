@@ -3,7 +3,7 @@ Tested
 - [ ] STM32L431 
 - [ ] Lora (SX1280)
       
-*Sensors
+--Sensors
 - [ ] ENS210 (Temp+Humidity)
 - [ ] LTR-390-UV (Light intensity & UV)
 - [ ] DS18-B20 (Surface temperature)
