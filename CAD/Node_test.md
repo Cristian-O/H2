@@ -4,7 +4,7 @@ Tested
 - [ ] Lora (SX1280)
       
 Sensors
-      - [ ] ENS210 (Temp+Humidity)
+      - [x] ENS210 (Temp+Humidity)
       - [ ] LTR-390-UV (Light intensity & UV)
       - [ ] DS18-B20 (Surface temperature)
       - [ ] Analog PH (PH of water)
