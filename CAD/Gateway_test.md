@@ -12,6 +12,8 @@ Working
       ![IMG_20240120_123548](https://github.com/Cristian-O/2.4GHz-LoRa-Gateway-and-Node/assets/108984738/2a1bf97e-297a-4244-b116-eee2c9cd15e9)
       ![IMG_20240120_140120](https://github.com/Cristian-O/2.4GHz-LoRa-Gateway-and-Node/assets/108984738/3dfe7d96-66c8-4910-95a7-cbae71f445de)
       ![Current vs Time (end of charge; LiFePO4 cell voltage = 3 4V)](https://github.com/Cristian-O/H2/assets/108984738/ce14e5e9-ca38-4a74-a35d-4b095b8d5b86)
+      ![image](https://github.com/Cristian-O/H2/assets/108984738/2de9f9b0-00da-4020-8472-1a46dfa877cc)
+
       
       Fully functional charging the cell from 3.3v to 3.4V (~300mA capacity); Vin=13V, MPPT=12V, Max current=200mA). Reverse battery tested (Q2 was smoking, no components were harmed, Q2 will act as fuse during reverse-battery -one body diode of the internal MOS transistor will burn)
 - [ ] Buck-boost (no Feedback divider, PCB cut+resistors or TPS63001)
