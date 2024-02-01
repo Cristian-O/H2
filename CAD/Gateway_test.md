@@ -1,7 +1,7 @@
 Tested
 - [x] Battery charge (LiFePO4)
 - [x] Buck-boost (TPS63000 should be replaced with TPS63001-3.3V version)
-- [ ] ESP32-C3
+- [x] ESP32-C3
 - [x] NFC
 - [ ] LoRa
 - [ ] SD Card
@@ -16,8 +16,8 @@ Working
 
       
       Fully functional charging the cell from 3.3v to 3.4V (~300mA capacity); Vin=13V, MPPT=12V, Max current=200mA). Reverse battery tested (Q2 was smoking, no components were harmed, Q2 will act as fuse during reverse-battery -one body diode of the internal MOS transistor will burn)
-- [ ] Buck-boost (no Feedback divider, PCB cut+resistors or TPS63001)
-- [ ] ESP32-C3 
+- [ ] Buck-boost (no Feedback divider, PCB cut+resistors or TPS63001)(test PCB should be developed for further testing)
+- [x] ESP32-C3 (boot configuration causes problems- GPIO2,9 and 8 should be configured for flashing, WiFi is Working, reset, USB-CDC flash and debug + serial)
 - [x] NFC (Antenna is working, Detected by ST25DV android app at ~2cm distance, I2C not tested)
       
      ![Screenshot_20240119_225934_com st st25nfc](https://github.com/Cristian-O/2.4GHz-LoRa-Gateway-and-Node/assets/108984738/a7974b05-da86-4b15-9883-ab2d21142aeb)
