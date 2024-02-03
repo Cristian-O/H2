@@ -16,7 +16,7 @@ Working
 ![image](https://github.com/Cristian-O/H2/assets/108984738/402b6366-94e0-48f5-8fec-9134cf6d7b21)
 
       Charging to 3.86V and discharge to 2.24V, no reg_out (unstable, <2V, set to 3V), charging over 3V on VIN
-      Charging at down to 0.5V tested (working only when CBP capacitor is touched (this can be due to high ESR of CBP capacitor or that it is not soldered properly) => resoldered then replaced with another => same behavior => CBP should be            reordered with lower ESR or PCB redesign without nearby copper pour (for testing 100pF in paralel with 10nF capacitor to emulate HBM-Human Body Model) => To be tested
+      Charging at down to 0.5V tested (working only when CBP capacitor is touched (this can be due to high ESR of CBP capacitor or that it is not soldered properly) => resoldered then replaced with another => same behavior => CBP should be          reordered with lower ESR or PCB redesign without nearby copper pour (for testing 100pF in paralel with 10nF capacitor to emulate HBM-Human Body Model) => To be tested
       Supercapacitor can be charged under 2.2V but it will be slower charging
       Reg_Out will give 3V only in LDO mode (buck and LDO work only for Supercap. charging)
       Reg_Out voltge is controlled only by VID resistor (should give 2.5V when it is not populated) -Reg_out is not working
