@@ -12,6 +12,8 @@ Tested
 Working
 - [X] Supercapacitor charging and management (ADP5091):
       ![image](https://github.com/Cristian-O/H2/assets/108984738/be896491-3708-4059-9036-6468f9c8566e)
+      ![image](https://github.com/Cristian-O/H2/assets/108984738/402b6366-94e0-48f5-8fec-9134cf6d7b21)
+
       
       Charging to 3.86V and discharge to 2.24V, no reg_out (unstable, <2V, set to 3V), charging over 3V on VIN
       Charging at down to 0.5V tested (working only when CBP capacitor is touched (this can be due to high ESR of CBP capacitor or that it is not soldered properly) => resoldered then replaced with another => same behavior => CBP should be            reordered with lower ESR
