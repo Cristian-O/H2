@@ -6,7 +6,7 @@ Tested
 - [ ] LoRa
 - [ ] SD Card
 
-Working
+Working/(Needs improvement)
 - [x] Battery charge (LiFePO4, charging is working :MPPT is set to 12V , will be 6V for the used solar pannel)
       ![IMG_20240120_140053](https://github.com/Cristian-O/2.4GHz-LoRa-Gateway-and-Node/assets/108984738/e02561f6-f4db-4a95-baf5-df797e891361)
       ![IMG_20240120_123548](https://github.com/Cristian-O/2.4GHz-LoRa-Gateway-and-Node/assets/108984738/2a1bf97e-297a-4244-b116-eee2c9cd15e9)
