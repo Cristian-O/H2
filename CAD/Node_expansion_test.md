@@ -11,7 +11,6 @@ Tested
       
 Working
 - [X] Supercapacitor charging and management (ADP5091):
-      
       ![image](https://github.com/Cristian-O/H2/assets/108984738/be896491-3708-4059-9036-6468f9c8566e)
       
       Charging to 3.86V and discharge to 2.24V, no reg_out (unstable, <2V, set to 3V), charging over 3V on VIN
