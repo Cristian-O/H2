@@ -14,9 +14,7 @@ Working
       
       Charging to 3.86V and discharge to 2.24V, no reg_out (unstable, <2V, set to 3V), charging over 3V on VIN
       Charging at down to 0.5V tested (working only when CBP capacitor is touched (this can be due to high ESR of CBP capacitor or that it is not soldered properly) => resoldered then replaced with another => same behavior => CBP should be          reordered with lower ESR
-
       ![image](https://github.com/Cristian-O/H2/assets/108984738/be896491-3708-4059-9036-6468f9c8566e)
-
       Supercapacitor can be charged under 2.2V but it will be slower charging
       Reg_Out will give 3V only in LDO mode (buck and LDO work only for Supercap. charging)
       Reg_Out voltge is controlled only by VID resistor (should give 2.5V when it is not populated) -Reg_out is not working
