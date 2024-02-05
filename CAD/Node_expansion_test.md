@@ -9,7 +9,7 @@ Tested
 - [ ] DS18-B20 (Surface temperature)
 - [ ] Analog PH (PH of water)
       
-Working
+Working/(Needs improvement)
 - [X] Supercapacitor charging and management (ADP5091):
 
 ![image](https://github.com/Cristian-O/H2/assets/108984738/be896491-3708-4059-9036-6468f9c8566e)
