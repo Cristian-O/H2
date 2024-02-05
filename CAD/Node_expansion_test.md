@@ -25,7 +25,7 @@ Working/(Needs improvement)
       REG_D1 and REG_D2 controls mode of operation (now is connected with either VSYS or GND -for LDO or VIN Hybrid Mode, JUMPER for VDD should be connected)
       VDD can be connected to VSYS with VDD jumper(REG_OUT should be connected instead from capacitor to maintain max 3V at VDD)
 
-      ![PICT0009](https://github.com/Cristian-O/H2/assets/108984738/458d5e85-6163-4ba9-9ace-26c56be0b607)
+![PICT0009](https://github.com/Cristian-O/H2/assets/108984738/458d5e85-6163-4ba9-9ace-26c56be0b607)
 - [ ] STM32L431 
 - [ ] Lora (SX1280)
 
