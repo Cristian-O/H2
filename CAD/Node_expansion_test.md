@@ -25,6 +25,7 @@ Working/(Needs improvement)
       REG_D1 and REG_D2 controls mode of operation (now is connected with either VSYS or GND -for LDO or VIN Hybrid Mode, JUMPER for VDD should be connected)
       VDD can be connected to VSYS with VDD jumper(REG_OUT should be connected instead from capacitor to maintain max 3V at VDD)
       WORKING!!!! MINOP pin was not soldered properly (BOOST converter wasn't switching because the threshold was higher than input - that's why it worked at 3V not at 0.5V)
+      IMPROVEMENTS> VDD=REG_OUT (3V) not VSYS(2.2 to 3.8V), TEST point for SUPERCAPCAP voltage measurement and VSYS(can be used for safe discharge of the supercapacitor)
 ![PICT0009](https://github.com/Cristian-O/H2/assets/108984738/458d5e85-6163-4ba9-9ace-26c56be0b607)
 - [ ] STM32L431 
 - [ ] Lora (SX1280)
