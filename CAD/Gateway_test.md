@@ -22,9 +22,10 @@ Working/(Needs improvement)
       ![chip_id_esp32](https://github.com/Cristian-O/H2/assets/108984738/472c3584-0447-4511-9679-668c3f78736f)
       ![wifi_test_esp32_c3_1](https://github.com/Cristian-O/H2/assets/108984738/399c255c-60f5-44bc-a497-0b5c16c6b8e8)
 
-- [x] NFC (Antenna is working, Detected by ST25DV android app at ~2 to 4cm distance, I2C not tested)
+- [x] NFC (Antenna is working. Detected by ST25DV android app at ~2 to 4cm distance, I2C tested-1,2,3,4 wrote from phone read by ESP32, 0,0,0,0 read by phone after write from ESP32)
       
      ![Screenshot_20240119_225934_com st st25nfc](https://github.com/Cristian-O/2.4GHz-LoRa-Gateway-and-Node/assets/108984738/a7974b05-da86-4b15-9883-ab2d21142aeb)
+     ![st25dv04k_read0x0_1234](https://github.com/Cristian-O/H2/assets/108984738/fe86804e-591a-4867-a549-075bfd76f66a)
 
 - [ ] LoRa
 - [ ] SD Card
