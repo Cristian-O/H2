@@ -1,12 +1,12 @@
 Tested
 - [x] Supercapacitor charging and management (ADP5091)
-- [ ] STM32L431 
+- [x] STM32L431 
 - [ ] Lora (SX1280)
       
->Sensors
-- [ ] ENS210 (Temp+Humidity)
-- [ ] LTR-390-UV (Light intensity & UV)
-- [ ] DS18-B20 (Surface temperature)
+>Sensors (EXP headers are ordered wrong EXP3 has EXP1 pins)
+- [x] ENS210 (Temp+Humidity)
+- [x] LTR-390-UV (Light intensity & UV)(tested in both UVS and ALS, precise, fast)
+- [x] DS18-B20 (Surface temperature)(working, not very precise at 2.9V but variation of temperature is working)
 - [ ] Analog PH (PH of water)
       
 Working/(Needs improvement)
@@ -25,13 +25,15 @@ Working/(Needs improvement)
       REG_D1 and REG_D2 controls mode of operation (now is connected with either VSYS or GND -for LDO or VIN Hybrid Mode, JUMPER for VDD should be connected)
       VDD can be connected to VSYS with VDD jumper(REG_OUT should be connected instead from capacitor to maintain max 3V at VDD)
       WORKING!!!! MINOP pin was not soldered properly (BOOST converter wasn't switching because the threshold was higher than input - that's why it worked at 3V not at 0.5V)
+      
       IMPROVEMENTS> VDD=REG_OUT (3V) not VSYS(2.2 to 3.8V), TEST point for SUPERCAPCAP voltage measurement and VSYS(can be used for safe discharge of the supercapacitor)
+      PGOOD and LLD are not very usefull, more usefull will be the measurement o SCAP voltage (simple N+P channel MOS with 1M resistance at gate +1/2 divider (two 1M resistors)=>4 resistors of 1M (good tolerance will be beneficial), and             DMC2400UV as used in Nordic Thingy:52-command from microcontroller to open
 ![PICT0009](https://github.com/Cristian-O/H2/assets/108984738/458d5e85-6163-4ba9-9ace-26c56be0b607)
-- [ ] STM32L431 
+- [x] STM32L431(working, Reset pin would be usefull for programming using st-link)
 - [ ] Lora (SX1280)
 
 >Sensors
-- [ ] ENS210 (Temp+Humidity)
-- [ ] LTR-390-UV (Light intensity & UV)
-- [ ] DS18-B20 (Surface temperature)
-- [ ] Analog PH (PH of water)
+- [x] ENS210 (Temp+Humidity)(both working, tested in ArduinoIDE using STM32Duino and Wire, SoftwareSerial for UART2 transmission)
+- [x] LTR-390-UV (Light intensity & UV)(tested in both UVS and ALS, precise, fast-up to 20bits of resolution -could be used to determine weather or not energi is produced from solar)
+- [x] DS18-B20 (Surface temperature)(working, not very precise at 2.9V but variation of temperature is working)
+- [ ] Analog PH (PH of water)(to be tested-no ph probe available)
