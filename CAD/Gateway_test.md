@@ -28,5 +28,5 @@ Working/(Needs improvement)
      ![st25dv04k_UID](https://github.com/Cristian-O/H2/assets/108984738/4183b22c-28a0-40dd-b887-510375fec0fa)
      ![st25dv04k_read0x0_1234](https://github.com/Cristian-O/H2/assets/108984738/fe86804e-591a-4867-a549-075bfd76f66a)
 
-- [ ] LoRa
-- [ ] SD Card
+- [ ] LoRa (BUSY,RST and DIO1 are not connected => LoRa could not be used as busy is used to determine when to send next commands, DIO1 is used for signaling packet transmision)
+- [ ] SD Card (not usefull, NFC memory is easier to operate); will be replaced with OLED display in rev2 (good for debugging and not only)
