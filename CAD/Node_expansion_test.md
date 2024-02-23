@@ -30,7 +30,7 @@ Working/(Needs improvement)
       PGOOD and LLD are not very usefull, more usefull will be the measurement o SCAP voltage (simple N+P channel MOS with 1M resistance at gate +1/2 divider (two 1M resistors)=>4 resistors of 1M (good tolerance will be beneficial), and             DMC2400UV as used in Nordic Thingy:52-command from microcontroller to open
 ![PICT0009](https://github.com/Cristian-O/H2/assets/108984738/458d5e85-6163-4ba9-9ace-26c56be0b607)
 - [x] STM32L431(working, Reset pin would be usefull for programming using st-link)
-- [ ] Lora (SX1280)
+- [ ] Lora (SX1280)(reset and DIO1 are not connected => slow speed of the transceiver
 
 >Sensors
 - [x] ENS210 (Temp+Humidity)(both working, tested in ArduinoIDE using STM32Duino and Wire, SoftwareSerial for UART2 transmission)
