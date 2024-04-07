@@ -29,6 +29,9 @@ Working/(Needs improvement)
 - [x] STM32L431(working)
       Fully tested and functional!!!
 - [x] Lora(registers were read, ~800 packets sent without errors during a single full charge of the supercapacitor)
+      ![regs_read_node_lora](https://github.com/Cristian-O/H2/assets/108984738/12de713b-12a3-42ad-9aa8-aee5fbd2b515)
+      ![image](https://github.com/Cristian-O/H2/assets/108984738/f1db5ae5-239e-4160-a3e6-b8a0d1263c3e)
+
       Fully tested and functional!!!
 
 >Sensors
