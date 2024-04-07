@@ -42,3 +42,8 @@ To Do(Software)
 To Do(Hardware)
 - [ ] 18650 Holder/wall mount/antenna holder
 - [ ] Field Testing (Battery Life, Range)
+
+Other
+- [ ] App description
+- [ ] Testing and results in documentation
+- [ ] Pictures in documentation (complete documentation until last FW versions)
