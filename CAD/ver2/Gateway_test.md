@@ -38,6 +38,7 @@ To Do(Software)
 - [ ] ST25DV take SSID and PASSWORD for the AP (read during void.setup())
 - [ ] Sleep during no data reception (ex: 25 min sleep 5 min wakeup)
 - [ ] Block/Flow diagram for the software part (CLOUD integration, Sleep/LoRa/ST25)
+      
 To Do(Hardware)
 - [ ] 18650 Holder/wall mount/antenna holder
 - [ ] Field Testing (Battery Life, Range)
