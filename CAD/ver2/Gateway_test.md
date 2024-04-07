@@ -30,8 +30,11 @@ Working/(Needs improvement)
 - [x] LoRa (Regs could be read, data can be read and stored in RECEIVE_BUFFER, RSSI is read, tested at SF7, power of 10dB)
        ![LoRa_1](https://github.com/Cristian-O/H2/assets/108984738/7cfc2c03-e433-4c95-8434-a25b337adea1)
        ![LoRa_2](https://github.com/Cristian-O/H2/assets/108984738/be5f0d1c-970e-455c-8ed1-829dec24d64d)
+       ![Screenshot 2024-04-07 130546](https://github.com/Cristian-O/H2/assets/108984738/c43f87e9-0525-46b7-a7bd-e2a37862643f)
+
 
 
 - [x] OLED (SSD1306,128x32) tested with Adafruit_SSD1306 and U8g2 libraries (Meditation error when LoRa and OLED are used, I2C scan is working, devices are detected on I2C)
+      ![IMG_20240331_112410](https://github.com/Cristian-O/H2/assets/108984738/ab065294-febe-4ccd-a453-e4b81cf49ea9)
 
 
