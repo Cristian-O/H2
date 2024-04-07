@@ -8,7 +8,6 @@ Tested
 
 Working/(Needs improvement)
 - [x] Battery charge (LiFePO4, charging is working :MPPT is set to 6V for the used solar pannel)
-      ![IMG_20240120_140053](https://github.com/Cristian-O/2.4GHz-LoRa-Gateway-and-Node/assets/108984738/e02561f6-f4db-4a95-baf5-df797e891361)
       ![IMG_20240120_123548](https://github.com/Cristian-O/2.4GHz-LoRa-Gateway-and-Node/assets/108984738/2a1bf97e-297a-4244-b116-eee2c9cd15e9)
       ![IMG_20240120_140120](https://github.com/Cristian-O/2.4GHz-LoRa-Gateway-and-Node/assets/108984738/3dfe7d96-66c8-4910-95a7-cbae71f445de)
       ![Current vs Time (end of charge; LiFePO4 cell voltage = 3 4V)](https://github.com/Cristian-O/H2/assets/108984738/ce14e5e9-ca38-4a74-a35d-4b095b8d5b86)
@@ -28,6 +27,11 @@ Working/(Needs improvement)
      ![st25dv04k_UID](https://github.com/Cristian-O/H2/assets/108984738/4183b22c-28a0-40dd-b887-510375fec0fa)
      ![st25dv04k_read0x0_1234](https://github.com/Cristian-O/H2/assets/108984738/fe86804e-591a-4867-a549-075bfd76f66a)
 
-- [ ] LoRa (BUSY,RST and DIO1 are not connected => LoRa could not be used as busy is used to determine when to send next commands, DIO1 is used for signaling packet transmision)
-- [ ] SD Card (not usefull, NFC memory is easier to operate); will be replaced with OLED display in rev2 (good for debugging and not only)
+- [x] LoRa (Regs could be read, data can be read and stored in RECEIVE_BUFFER, RSSI is read, tested at SF7, power of 10dB)
+       ![LoRa_1](https://github.com/Cristian-O/H2/assets/108984738/7cfc2c03-e433-4c95-8434-a25b337adea1)
+       ![LoRa_2](https://github.com/Cristian-O/H2/assets/108984738/be5f0d1c-970e-455c-8ed1-829dec24d64d)
+
+
+- [x] OLED (SSD1306,128x32) tested with Adafruit_SSD1306 and U8g2 libraries (Meditation error when LoRa and OLED are used, I2C scan is working, devices are detected on I2C)
+
 
