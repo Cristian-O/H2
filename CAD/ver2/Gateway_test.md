@@ -10,7 +10,9 @@ Working/(Needs improvement)
 - [x] Battery charge (LiFePO4, charging is working :MPPT is set to 6V for the used solar pannel)
       ![IMG_20240120_123548](https://github.com/Cristian-O/2.4GHz-LoRa-Gateway-and-Node/assets/108984738/2a1bf97e-297a-4244-b116-eee2c9cd15e9)
       ![Current vs Time (end of charge; LiFePO4 cell voltage = 3 4V)](https://github.com/Cristian-O/H2/assets/108984738/ce14e5e9-ca38-4a74-a35d-4b095b8d5b86)
-      Fully functional charging the cell from 3.3v to 3.4V (~300mA capacity); Vin=6V, MPPT=6V, Max current=350mA). Reverse battery tested (Q2 was smoking, no components were harmed, Q2 will act as fuse during reverse-battery -one body diode of the internal MOS transistor will burn)
+      ![IMG_20240331_120825](https://github.com/Cristian-O/H2/assets/108984738/6c809dae-8da0-4d33-9546-277f25a0f187)
+
+      Fully functional charging the cell from 3.3v to 3.4V (~300mA capacity); Vin=6V, MPPT=6V, Max current=350mA). Reverse battery tested (Q2 was smoking, no components were harmed, Q2 will act as fuse during reverse-battery -one body diode of the internal MOS transistor will burn). Fully tested during the start of April
 - [x] Buck-boost (TPS63001)(tested on VBUS-5V and VBAT-3.2V)
 - [x] ESP32-C3 (boot configuration causes problems- GPIO2,9 and 8 should be configured for flashing-pull up and capacitor on GPIO9(RC for timing), WiFi is Working, reset, USB-CDC flash and debug + serial)
       ![PICT0013](https://github.com/Cristian-O/H2/assets/108984738/92f30523-c372-483e-b849-fa86c3f2789f)
@@ -30,10 +32,12 @@ Working/(Needs improvement)
 - [x] OLED (SSD1306,128x32) tested with Adafruit_SSD1306 and U8g2 libraries (Meditation error when LoRa and OLED are used, I2C scan is working, devices are detected on I2C)
       ![IMG_20240331_112410](https://github.com/Cristian-O/H2/assets/108984738/ab065294-febe-4ccd-a453-e4b81cf49ea9)
 
-To Do
+To Do(Software)
 - [ ] FireBase and Thingspeak write + WiFi connection
 - [ ] OLED working as well as LoRa (mainly for range testing)
 - [ ] ST25DV take SSID and PASSWORD for the AP (read during void.setup())
 - [ ] Sleep during no data reception (ex: 25 min sleep 5 min wakeup)
 - [ ] Block/Flow diagram for the software part (CLOUD integration, Sleep/LoRa/ST25)
-      
+To Do(Hardware)
+- [ ] 18650 Holder/wall mount/antenna holder
+- [ ] Field Testing (Battery Life, Range)
