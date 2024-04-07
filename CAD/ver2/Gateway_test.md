@@ -14,7 +14,7 @@ Working/(Needs improvement)
 
       Fully functional charging the cell from 3.3v to 3.4V (~300mA capacity); Vin=6V, MPPT=6V, Max current=350mA). Reverse battery tested (Q2 was smoking, no components were harmed, Q2 will act as fuse during reverse-battery -one body diode of the internal MOS transistor will burn). Fully tested during the start of April
 - [x] Buck-boost (TPS63001)(tested on VBUS-5V and VBAT-3.2V)
-- [x] ESP32-C3 (boot configuration causes problems- GPIO2,9 and 8 should be configured for flashing-pull up and capacitor on GPIO9(RC for timing), WiFi is Working, reset, USB-CDC flash and debug + serial=> solved by correct button connection and 470nF + 5.1k resistors for the ENABLE and BOOT timing during startup)
+- [x] ESP32-C3 (boot configuration causes problems- GPIO2,9 and 8 should be configured for flashing-pull up and capacitor on GPIO9(RC for timing), WiFi is Working, reset, USB-CDC flash and debug + serial=> solved by correct button connection and 470nF + 5.1k resistors for the ENABLE and BOOT timing during startup instead of 100nF)
       ![PICT0013](https://github.com/Cristian-O/H2/assets/108984738/92f30523-c372-483e-b849-fa86c3f2789f)
       ![chip_id_esp32](https://github.com/Cristian-O/H2/assets/108984738/472c3584-0447-4511-9679-668c3f78736f)
       ![wifi_test_esp32_c3_1](https://github.com/Cristian-O/H2/assets/108984738/399c255c-60f5-44bc-a497-0b5c16c6b8e8)
