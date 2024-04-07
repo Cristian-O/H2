@@ -30,4 +30,10 @@ Working/(Needs improvement)
 - [x] OLED (SSD1306,128x32) tested with Adafruit_SSD1306 and U8g2 libraries (Meditation error when LoRa and OLED are used, I2C scan is working, devices are detected on I2C)
       ![IMG_20240331_112410](https://github.com/Cristian-O/H2/assets/108984738/ab065294-febe-4ccd-a453-e4b81cf49ea9)
 
-
+To Do
+- [ ] FireBase and Thingspeak write + WiFi connection
+- [ ] OLED working as well as LoRa (mainly for range testing)
+- [ ] ST25DV take SSID and PASSWORD for the AP (read during void.setup())
+- [ ] Sleep during no data reception (ex: 25 min sleep 5 min wakeup)
+- [ ] Block/Flow diagram for the software part (CLOUD integration, Sleep/LoRa/ST25)
+      
