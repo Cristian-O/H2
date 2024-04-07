@@ -43,5 +43,10 @@ Working/(Needs improvement)
 
 Parameters> TEMP+HUMID,UV/ALS,TEMP_P,HALL,VBAT,LLD?
 
-
-
+To Do(Software)
+- [ ] Multiple Wire interfaces (At least two> I2C1 and ISC2)
+- [ ] Multiple sensor read
+- [ ] Packet for LoRa transmission (with all sensor values)
+- [ ] Sleep implementation
+- [ ] Block/flow diagram of the code
+- [ ] Field testing (working time, power consumption)
