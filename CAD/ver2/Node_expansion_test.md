@@ -48,6 +48,6 @@ To Do(Software)
 - [x] Multiple sensor read
 - [x] Packet for LoRa transmission (with all sensor values)
 - [x] Sleep implementation(less than 1uA in sleep)
-- [ ] Block/flow diagram of the code(working...)
+- [x] Block/flow diagram of the code(working...)
 - [x] Field testing (working time, power consumption)-one day tested on both=> working
-- [ ] Range testing (distance)
+- [x] Range testing (distance) >600m with SF7 tested(line of sight)
