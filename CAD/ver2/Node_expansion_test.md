@@ -28,7 +28,7 @@ Working/(Needs improvement)
       Fully tested and functional!!!
 - [x] STM32L431(working)
       Fully tested and functional!!!
-- [x] Lora(registers were read, ~800 packets sent without errors during a single full charge of the supercapacitor)
+- [x] Lora(registers were read, ~200 packets sent without errors during a single full charge of the supercapacitor)
       ![regs_read_node_lora](https://github.com/Cristian-O/H2/assets/108984738/12de713b-12a3-42ad-9aa8-aee5fbd2b515)
       ![image](https://github.com/Cristian-O/H2/assets/108984738/f1db5ae5-239e-4160-a3e6-b8a0d1263c3e)
 
@@ -49,5 +49,5 @@ To Do(Software)
 - [x] Packet for LoRa transmission (with all sensor values)
 - [x] Sleep implementation(less than 1uA in sleep)
 - [x] Block/flow diagram of the code(working...)
-- [x] Field testing (working time, power consumption)-one day tested on both=> working
+- [x] Field testing (working time, power consumption)-one day tested on both=> working (less than 1uA in sleep=> should be ~800nA and less than 20mA on data sending
 - [x] Range testing (distance) >600m with SF7 tested(line of sight)
