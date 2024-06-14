@@ -35,7 +35,7 @@ Working/(Needs improvement)
 To Do(Software)
 - [x] FireBase and Thingspeak write + WiFi connection
 - [x] OLED working as well as LoRa (mainly for range testing)
-- [ ] ST25DV take SSID and PASSWORD for the AP (read during void.setup())
+- [x] ST25DV take SSID and PASSWORD for the AP (read before Wi-Fi connect)
 - [x] Sleep during no data reception (ex: 25 min sleep 5 min wakeup)-WiFi is OFF=> no sleep in order to receive data(~30mA in this state)
 - [x] Block/Flow diagram for the software part (CLOUD integration, Sleep/LoRa/ST25)-working...
       
