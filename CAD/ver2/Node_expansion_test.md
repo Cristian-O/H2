@@ -3,7 +3,6 @@ Tested
 - [x] STM32L431 
 - [x] Lora (SX1280)
       
->Sensors (EXP headers are ordered wrong EXP3 has EXP1 pins)
 - [x] ENS210 (Temp+Humidity)
 - [x] LTR-390-UV (Light intensity & UV)(tested in both UVS and ALS, precise, fast)
 - [x] DS18-B20 (Surface temperature)(working, not very precise at 2.9V but variation of temperature is working)
