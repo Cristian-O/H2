@@ -40,10 +40,10 @@ To Do(Software)
 - [x] Block/Flow diagram for the software part (CLOUD integration, Sleep/LoRa/ST25)-working...
       
 To Do(Hardware)
-- [ ] 18650 Holder/wall mount/antenna holder
-- [ ] Field Testing (Battery Life, Range)
+- [x] 18650 Holder/wall mount/antenna holder
+- [x] Field Testing (Battery Life, Range)>1d each without charging
 
 Other
-- [ ] App description
-- [ ] Testing and results in documentation
-- [ ] Pictures in documentation (complete documentation until last FW versions)
+- [x] App description
+- [x] Testing and results in documentation
+- [x] Pictures in documentation (complete documentation until last FW versions)
